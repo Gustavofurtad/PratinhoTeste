@@ -1,0 +1,333 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 600px) {
+    section.module.parallax h1{
+        font-size: 45px;
+    }
+    h1#TXTH1{
+        font-size: 30px;
+    }
+    section.module.parallax-1{
+        background-image: url("MOBILE\ 1.jpg");
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    section.module.parallax-2{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    
+    section.module.parallax-3{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    section.module.parallax-4{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    
+    section.module.parallax-5{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    
+    ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+    li{
+        margin-bottom: 10px;
+        color: #FFFF66;
+        list-style-type: none;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    li.funçao1{
+        font-size: 20px;
+    }
+    img#Mobile{
+        cursor:auto;
+        width: 50px;
+    }
+    #burg{
+        align-items: center;
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    header{
+        text-align: center;
+        height: 170px;
+        display: none;
+    }
+
+    img{
+        width: 150px;
+    }
+
+    section.module p{
+        text-align: justify;
+        margin: auto;
+        margin-top: 40px;
+        width: 250px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
+    #LogoSemFundo{
+        display: block;
+        text-align: center;
+    }
+
+   .container{
+        padding: 0 8px;
+        gap: 30px ;
+        display: block;
+        justify-content: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .row{
+        display: flex;
+        gap: 0px;
+    }
+
+.card-preco
+{
+	max-width: 310px;
+}
+
+.card-preco:hover .card-preco-header
+{
+	box-shadow: 0 0 0  #F7BA0D;
+}
+
+
+.card-preco-header
+{ 
+    background-color:black ;
+	border-radius: 0px;
+	font-size: 8px;
+}
+
+.preco
+{
+    font-size: 20px;
+}
+
+
+.preco sup, .preco span
+{
+	font-size: 8px;
+	font-weight: bolder;
+}
+
+.card-preco:hover, .card-preco:hover .preco
+{
+	color: #F7BA0D  ;
+}
+
+.card-preco li
+{
+	font-size: 12px;
+}    
+a{
+    font-size: 10px;
+}
+.btn
+{
+    border: 1px solid #861B2D;
+	padding: 10px;
+	border-radius:  8px;
+	width: 50px;
+}
+
+.btn:hover
+{
+	background-color: #F7BA0D;
+	color: #861B2D; 
+}
+footer{
+    display: none;
+}
+    
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    section.module.parallax h1{
+        font-size: 55px;
+    }
+    h1#TXTH1{
+        font-size: 45px;
+    }
+    section.module.parallax-1{
+        background-image: url("MOBILE\ 1.jpg");
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    section.module.parallax-2{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    
+    section.module.parallax-3{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    section.module.parallax-4{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    
+    section.module.parallax-5{
+        background-position: center;
+        background-attachment: local;
+        background-size: cover;
+    }
+    
+    img{
+        width: 200px;
+    }
+
+    li{
+        font-size: 15px;
+    }
+    li.funçao1{
+        font-size: 16px;
+    }
+
+    section.module p{
+        width: 200px;
+        margin-right: 5px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .container{
+        padding: 0 10px;
+        gap: 100px ;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    h1{
+        font-size: 55px;
+    }
+    
+    .row{
+        display: flex;
+        gap: 0px;
+    }
+
+    .card-preco{
+	max-width: 310px;
+    }
+
+    .card-preco:hover .card-preco-header{
+	box-shadow: 0 0 0  #F7BA0D;
+    }
+
+
+    .card-preco-header{ 
+    background-color:black ;
+	border-radius: 0px;
+	font-size: 8px;
+    }
+
+    .preco{
+    font-size: 20px;
+    }
+
+
+    .preco sup, .preco span{
+	font-size: 8px;
+	font-weight: bolder;
+    }
+
+    .card-preco:hover, .card-preco:hover .preco{
+	color: #F7BA0D  ;
+    }
+
+    .card-preco li{
+	font-size: 12px;
+    }
+
+    a{
+    font-size: 10px;
+    }
+    .btn{
+    border: 1px solid #861B2D;
+	padding: 10px;
+	border-radius:  8px;
+	width: 50px;
+    }
+
+    .btn:hover{
+	background-color: #F7BA0D;
+	color: #861B2D; 
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    section.module.parallax h1{
+        font-size: 75px;
+    }
+    h1#TXTH1{
+        font-size: 65px;
+    }
+    section.module.parallax-1{
+        background-image: url("MOBILE\ 1.jpg");
+    }
+     img{
+        margin-left: 50px;
+        width: 250px;
+    }
+    section.module p{
+        margin-right: 5px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .row{
+        display: flex;
+        gap: 0px;
+    }
+}
+
