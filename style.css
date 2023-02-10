@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #691825;
+    margin: 0;
+    padding: 0;
+    color: #861B2D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#burg > img{
+    cursor: pointer;
+    width: 35px;
+}
+#Talher:hover{
+    opacity: 60%;
+}
+
+#burg{
+    text-align: right;
+    display: none;
+    background-color: #55161f;
+    padding: 15px;
+}
+
+div.Logo{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-image: url("Group\ 3816.png")
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #691825;
+}
+.Menu{
+    display: flex;
+    margin: 23px;
+    padding: 15px;
+}
+.lista{
+    color: #FFFF66;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+}
+/*ul{
+    display: flex;
+    margin: 23px;
+    padding: 15px;
+
+}
+li{
+    color: #FFFF66;
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-display: flex;
+}*/
+
+
+h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #7D1B2A;
+}
+
+main{
+    background-color:#F7BA0D;
+    
+}
+
+div.setaBaixo{
+    width: 100px;
+    height: 100px;
+    margin-top: 250px;
+    display: flex;
+    background-image: url("MdKeyboardArrowDown.png");
+    background-size: contain;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: "";
+
+    animation-name:setaBaixo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes setaBaixo{
+    0%{
+        top:0px;
+    }
+    100%{
+        top: 20px;
+    }
+}
+img{
+    margin-left: 15px;
+    width: 500px;
+}
+
+.container{
+    padding: 0 10px;
+    gap: 100px ;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+div.Paragrafo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+
+}
+section.module:last-child{
+    margin-bottom: 0px;
+}
+section.module p{
+    max-width: 1000px;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size:30px;
+}
+
+section.module.content{
+    padding: 90px 0;
+    background-color: #861B2D;
+    background-image:url("fundo.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+}
+.row{
+    display: flex;
+    gap: 100px;
+}
+
+
+.tabela-preco
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: min(1600px, 100%);
+	margin:  auto;
+}
+
+.card-preco
+{
+	flex:1;
+	max-width: 360px;
+	background-color: #000000;
+	margin: 20px 10px;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+	color: #F7BA0D;
+	transition: .3s linear;
+}
+
+.card-preco:hover .card-preco-header
+{
+	box-shadow: 0 0 0 26em #F7BA0D;
+
+}
+
+
+.card-preco-header
+{
+	background-color: #861B2D;
+	display: inline-block;
+	color: #F7BA0D;
+	padding: 12px 30px;
+	border-radius: 0 0 20px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: .4s line;
+}
+
+.preco
+{
+	font-size: 70px;
+	color: #F7BA0D;
+	margin: 40px 0;
+	transition: .2s linear;
+}
+
+
+.preco sup, .preco span
+{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.card-preco:hover, .card-preco:hover .preco
+{
+	color: #861B2D;
+}
+
+.card-preco li
+{
+	font-size: 16px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.btn
+{
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 80px;
+	border: 2px solid #861B2D;
+	color: #F7BA0D;
+	padding: 18px 40px;
+	border-radius:  8px;
+	text-transform:  uppercase;
+	font-weight: 500;
+	transition:  .3s linear;
+}
+
+.btn:hover
+{
+	background-color: #F7BA0D;
+	color: #861B2D; 
+}
+
+@media screen and (max-width: 1100px)
+{
+	.card-preco
+	{
+		flex: 50%;
+	}
+}
+
+.Funçoes{
+    margin: 23px;
+    padding: 15px;
+}
+
+.funçao1{
+    color: #FFFF66;
+    list-style-type:disc;
+    padding-bottom: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient( rgba(0,0,0,0)0, rgba(0,0,0,0) 40%, #861B2D 100%);
+}
+
+
+section.module.parallax-1{
+    background-image: url("Principal.png");
+}
+
+
+section.module.parallax-2{
+    background-image: url("./foto 2G.jpg");
+}
+
+section.module.parallax-3{
+    background-image: url("./Foto 3G.jpg");
+}
+section.module.parallax-4{
+    background-image: url("Foto\ 3G.jpg");
+}
+
+section.module.parallax-5{
+    background-image: url("MicrosoftTeams-image.png");
+}
+
+section.module.parallax h1{
+    /*color:#FFFF66;*/
+    text-shadow: 1px 1px 3px gray;
+    color: #F7BA0D;
+    text-align: center;
+    font-size: 97px;
+    z-index: 50;
+}
+footer{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #691825;
+    
+}
+.navbar{
+    display: flex;
+    margin: 23px;
+    padding: 15px;
+}
+.navbar p{
+    transform: translate(60px);
+}
+
+
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position:relative;
+    overflow: hidden;
+    cursor:pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #dd2504;
+    border-radius: 35px;
+    color: #FFF;
+    box-shadow: 0 0 50px #dd2504;
+}
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e; 
+}
+.box .icon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.icon-instagram{
+    background-color: #F7BA0D;
+}
+.icon-whatsapp{
+    background-color: #25d366;
+}
+.box:hover .icon{
+    background: #FFF;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
